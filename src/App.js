@@ -22,12 +22,10 @@ class CatComponent extends Component {
 		);
 	}
 }
-
 class GraceHopperQuoteComponent extends Component {
-	render(){
+	render() {
 		return(
-			<div className="GraceHopperComponent">
-
+			<div className="GraceHopperQuoteComponent">
 			</div>
 		);
 	}
@@ -36,7 +34,8 @@ class GraceHopperQuoteComponent extends Component {
 class MouseComponent extends Component {
 	render(){
 		return(
-			<div className="MouseComponent"></div>
+			<div className="MouseComponent">
+			</div>
 		);
 	}
 }
