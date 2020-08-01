@@ -7,7 +7,34 @@ class App extends Component {
 			<div className="App">
 				<CatComponent />
 				<GraceHopperQuoteComponent />
+				<MouseComponent />
 				{/* one more component missing */}
+			</div>
+		);
+	}
+}
+
+class CatComponent extends Component {
+	render() {
+		return(
+			<div className="CatComponent">
+			</div>
+		);
+	}
+}
+class GraceHopperQuoteComponent extends Component {
+	render() {
+		return(
+			<div className="GraceHopperQuoteComponent">
+			</div>
+		);
+	}
+}
+
+class MouseComponent extends Component {
+	render(){
+		return(
+			<div className="MouseComponent">
 			</div>
 		);
 	}
